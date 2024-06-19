@@ -1,7 +1,7 @@
 import Header from "../../header/Header"
 import { useState, useEffect } from "react"
 import PostForm from "../PostForm"
-import { navigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 
 export default function PostEdit(){
   const navigate = useNavigate()
